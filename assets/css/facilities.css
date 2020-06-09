@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;0,800;1,100;1,200;1,300&display=swap');
+body{ 
+    font-family: 'Poppins', sans-serif; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    max-height: 100vh;
+}
+
+
+.restaurant-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  background-image: url("/assets/images/Ellipse-four.png"), url("/assets/images/Ellipse-three.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 80%, 0% 100%;
+}
+
+.restaurant-title{
+    font-style: normal;
+   font-weight: bold;
+   line-height: 150px;
+   color: #AC8DAF;
+   font-size: 50px;
+   }
+
+   .body-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+   }
+.restaurant-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+.gym-section{
+     background-color: rgb(238, 232, 239);
+     min-width: 100vw;
+}
+
+.gym-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    background-image: url("/assets/images/Ellipse-one.png"), url("/assets/images/Ellipse-two.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, 100% 85%; 
+
+}
+
+.gym-title{
+    font-style: normal;
+   font-weight: bold;
+   line-height: 150px;
+    font-size: 50px;
+   color: #484C7F;
+   }
+
+.gym-image img{
+    width: 100%;
+    height: auto;
+}
+
+ @media screen and (min-width:1020px){
+ 
+    .gym-container{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 1em;
+        direction: rtl;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .gym-image img{
+        width: 659px;
+        height: 423px;
+    }
+    
+    .restaurant-container{
+     display: grid;
+     grid-template-columns: 60% 40%;
+     gap: 1em;
+     margin-top: 100px;
+    }
+
+    .restaurant-image img{
+        width: 659px;
+        height: 423px;
+    }
+
+    .restaurant-text{
+        padding-left: 150px;
+    }
+
+    .gym-text{
+        padding-right: 150px;
+    }
+
+    .body-text{
+        text-align: left;
+        font-size: 1.125em;
+        font-style: bold;
+        font-weight: 600;
+        color: rgba(72, 76, 127, 0.74);
+        display: block;
+        width: 100%;
+        max-width: 509px;
+        line-height: 27px
+    }
+
+    .gym-title, .restaurant-title{
+        font-size: 100px;
+    }
+
+    
+}  
