@@ -399,6 +399,7 @@ p {
     line-height: 1.5;
     color: #AC8DAF;
     font-size: 35px;
+    text-align: left;
 }
 
 .body-text {
@@ -515,6 +516,7 @@ p {
         color: rgba(72, 76, 127, 0.74);
         display: block;
         width: 100%;
+
         max-width: 509px;
         line-height: 27px
     }
@@ -522,5 +524,6 @@ p {
     .gym-title,
     .restaurant-title {
         font-size: 60px;
+
     }
 }
